@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27976E281804959E00B3EA6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27976E271804959E00B3EA6E /* Foundation.framework */; };
+		27976E2A1804959E00B3EA6E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27976E291804959E00B3EA6E /* CoreGraphics.framework */; };
+		27976E2C1804959E00B3EA6E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27976E2B1804959E00B3EA6E /* QuartzCore.framework */; };
+		27976E2E1804959E00B3EA6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27976E2D1804959E00B3EA6E /* UIKit.framework */; };
+		27976E341804959E00B3EA6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27976E331804959E00B3EA6E /* main.m */; };
+		27976E3A1804959E00B3EA6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27976E391804959E00B3EA6E /* AppDelegate.m */; };
+		27976E3D1804959E00B3EA6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27976E3C1804959E00B3EA6E /* InfoPlist.strings */; };
+		27976E401804959F00B3EA6E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27976E3F1804959F00B3EA6E /* Images.xcassets */; };
+		27976E421804959F00B3EA6E /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 27976E411804959F00B3EA6E /* iTunesArtwork */; };
+		27976E441804959F00B3EA6E /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 27976E431804959F00B3EA6E /* iTunesArtwork@2x */; };
+		27C18085180499C000FEA6CA /* FDEaselView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27C18084180499C000FEA6CA /* FDEaselView.xib */; };
+		27C18088180499E900FEA6CA /* FDEaselController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C18087180499E900FEA6CA /* FDEaselController.m */; };
+		27D3FDF418049F4000194D18 /* FDEaselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D3FDF318049F4000194D18 /* FDEaselView.m */; };
+		27E3BB0218049A5700A5E93E /* libFDRadialMenu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C1808E18049A3200FEA6CA /* libFDRadialMenu.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27C1808D18049A3200FEA6CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27C1808918049A3200FEA6CA /* FDRadialMenu Static Library.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 277DC588174D678300232270;
+			remoteInfo = FDRadialMenu;
+		};
+		27E3BAFF18049A4F00A5E93E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27C1808918049A3200FEA6CA /* FDRadialMenu Static Library.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 277DC587174D678300232270;
+			remoteInfo = FDRadialMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27976E241804959E00B3EA6E /* FDRadialMenu iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FDRadialMenu iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27976E271804959E00B3EA6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		27976E291804959E00B3EA6E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		27976E2B1804959E00B3EA6E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		27976E2D1804959E00B3EA6E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		27976E311804959E00B3EA6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27976E321804959E00B3EA6E /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		27976E331804959E00B3EA6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27976E351804959E00B3EA6E /* Entitlements.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Entitlements.entitlements; sourceTree = "<group>"; };
+		27976E381804959E00B3EA6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		27976E391804959E00B3EA6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		27976E3C1804959E00B3EA6E /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		27976E3F1804959F00B3EA6E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		27976E411804959F00B3EA6E /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		27976E431804959F00B3EA6E /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
+		27C18084180499C000FEA6CA /* FDEaselView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FDEaselView.xib; sourceTree = "<group>"; };
+		27C18086180499E900FEA6CA /* FDEaselController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDEaselController.h; sourceTree = "<group>"; };
+		27C18087180499E900FEA6CA /* FDEaselController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDEaselController.m; sourceTree = "<group>"; };
+		27C1808918049A3200FEA6CA /* FDRadialMenu Static Library.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "FDRadialMenu Static Library.xcodeproj"; path = "../../Static Library Project/FDRadialMenu Static Library.xcodeproj"; sourceTree = "<group>"; };
+		27D3FDF218049F4000194D18 /* FDEaselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDEaselView.h; sourceTree = "<group>"; };
+		27D3FDF318049F4000194D18 /* FDEaselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDEaselView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27976E211804959E00B3EA6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E3BB0218049A5700A5E93E /* libFDRadialMenu.a in Frameworks */,
+				27976E2A1804959E00B3EA6E /* CoreGraphics.framework in Frameworks */,
+				27976E2E1804959E00B3EA6E /* UIKit.framework in Frameworks */,
+				27976E281804959E00B3EA6E /* Foundation.framework in Frameworks */,
+				27976E2C1804959E00B3EA6E /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27976E1B1804959E00B3EA6E = {
+			isa = PBXGroup;
+			children = (
+				27976E2F1804959E00B3EA6E /* FDRadialMenu iOS Example */,
+				27976E361804959E00B3EA6E /* Vendors */,
+				27976E261804959E00B3EA6E /* Frameworks */,
+				27976E251804959E00B3EA6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27976E251804959E00B3EA6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27976E241804959E00B3EA6E /* FDRadialMenu iOS Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27976E261804959E00B3EA6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27976E271804959E00B3EA6E /* Foundation.framework */,
+				27976E291804959E00B3EA6E /* CoreGraphics.framework */,
+				27976E2B1804959E00B3EA6E /* QuartzCore.framework */,
+				27976E2D1804959E00B3EA6E /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27976E2F1804959E00B3EA6E /* FDRadialMenu iOS Example */ = {
+			isa = PBXGroup;
+			children = (
+				27976E371804959E00B3EA6E /* Shared */,
+				27976E301804959E00B3EA6E /* Supporting Files */,
+			);
+			path = "FDRadialMenu iOS Example";
+			sourceTree = "<group>";
+		};
+		27976E301804959E00B3EA6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27976E311804959E00B3EA6E /* Info.plist */,
+				27976E321804959E00B3EA6E /* Prefix.pch */,
+				27976E331804959E00B3EA6E /* main.m */,
+				27976E351804959E00B3EA6E /* Entitlements.entitlements */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27976E361804959E00B3EA6E /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				27C1808918049A3200FEA6CA /* FDRadialMenu Static Library.xcodeproj */,
+			);
+			name = Vendors;
+			path = "FDRadialMenu iOS Example";
+			sourceTree = "<group>";
+		};
+		27976E371804959E00B3EA6E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				27976E491804959F00B3EA6E /* Classes */,
+				27976E461804959F00B3EA6E /* Views */,
+				27976E3B1804959E00B3EA6E /* Resources */,
+				27976E381804959E00B3EA6E /* AppDelegate.h */,
+				27976E391804959E00B3EA6E /* AppDelegate.m */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		27976E3B1804959E00B3EA6E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				27976E3F1804959F00B3EA6E /* Images.xcassets */,
+				27976E3C1804959E00B3EA6E /* InfoPlist.strings */,
+				27976E411804959F00B3EA6E /* iTunesArtwork */,
+				27976E431804959F00B3EA6E /* iTunesArtwork@2x */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		27976E461804959F00B3EA6E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				27976E481804959F00B3EA6E /* Controllers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		27976E481804959F00B3EA6E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				27C18084180499C000FEA6CA /* FDEaselView.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		27976E491804959F00B3EA6E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				27976E521804959F00B3EA6E /* Controllers */,
+				27976E4D1804959F00B3EA6E /* Controls */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		27976E4D1804959F00B3EA6E /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				27D3FDF218049F4000194D18 /* FDEaselView.h */,
+				27D3FDF318049F4000194D18 /* FDEaselView.m */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		27976E521804959F00B3EA6E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				27C18086180499E900FEA6CA /* FDEaselController.h */,
+				27C18087180499E900FEA6CA /* FDEaselController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		27C1808A18049A3200FEA6CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27C1808E18049A3200FEA6CA /* libFDRadialMenu.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27976E231804959E00B3EA6E /* FDRadialMenu iOS Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27976E6B1804959F00B3EA6E /* Build configuration list for PBXNativeTarget "FDRadialMenu iOS Example" */;
+			buildPhases = (
+				27976E201804959E00B3EA6E /* Sources */,
+				27976E211804959E00B3EA6E /* Frameworks */,
+				27976E221804959E00B3EA6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27E3BB0018049A4F00A5E93E /* PBXTargetDependency */,
+			);
+			name = "FDRadialMenu iOS Example";
+			productName = "FDRadialMenu iOS Example";
+			productReference = 27976E241804959E00B3EA6E /* FDRadialMenu iOS Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27976E1C1804959E00B3EA6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FD;
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = 27976E1F1804959E00B3EA6E /* Build configuration list for PBXProject "FDRadialMenu iOS Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 27976E1B1804959E00B3EA6E;
+			productRefGroup = 27976E251804959E00B3EA6E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 27C1808A18049A3200FEA6CA /* Products */;
+					ProjectRef = 27C1808918049A3200FEA6CA /* FDRadialMenu Static Library.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				27976E231804959E00B3EA6E /* FDRadialMenu iOS Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		27C1808E18049A3200FEA6CA /* libFDRadialMenu.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFDRadialMenu.a;
+			remoteRef = 27C1808D18049A3200FEA6CA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27976E221804959E00B3EA6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C18085180499C000FEA6CA /* FDEaselView.xib in Resources */,
+				27976E441804959F00B3EA6E /* iTunesArtwork@2x in Resources */,
+				27976E3D1804959E00B3EA6E /* InfoPlist.strings in Resources */,
+				27976E421804959F00B3EA6E /* iTunesArtwork in Resources */,
+				27976E401804959F00B3EA6E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27976E201804959E00B3EA6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27976E3A1804959E00B3EA6E /* AppDelegate.m in Sources */,
+				27976E341804959E00B3EA6E /* main.m in Sources */,
+				27C18088180499E900FEA6CA /* FDEaselController.m in Sources */,
+				27D3FDF418049F4000194D18 /* FDEaselView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27E3BB0018049A4F00A5E93E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FDRadialMenu;
+			targetProxy = 27E3BAFF18049A4F00A5E93E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27976E681804959F00B3EA6E /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = "FDRadialMenu iOS Example/Supporting Files/Entitlements.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = AD_HOC;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)\"/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-all_load";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)\"/**";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad Hoc";
+		};
+		27976E691804959F00B3EA6E /* App Store */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = "FDRadialMenu iOS Example/Supporting Files/Entitlements.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = APP_STORE;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)\"/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-all_load";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)\"/**";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "App Store";
+		};
+		27976E6A1804959F00B3EA6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = "FDRadialMenu iOS Example/Supporting Files/Entitlements.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-all_load";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27976E6C1804959F00B3EA6E /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FDRadialMenu iOS Example/Supporting Files/Prefix.pch";
+				INFOPLIST_FILE = "FDRadialMenu iOS Example/Supporting Files/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad Hoc";
+		};
+		27976E6D1804959F00B3EA6E /* App Store */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FDRadialMenu iOS Example/Supporting Files/Prefix.pch";
+				INFOPLIST_FILE = "FDRadialMenu iOS Example/Supporting Files/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "App Store";
+		};
+		27976E6E1804959F00B3EA6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FDRadialMenu iOS Example/Supporting Files/Prefix.pch";
+				INFOPLIST_FILE = "FDRadialMenu iOS Example/Supporting Files/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27976E1F1804959E00B3EA6E /* Build configuration list for PBXProject "FDRadialMenu iOS Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27976E681804959F00B3EA6E /* Ad Hoc */,
+				27976E691804959F00B3EA6E /* App Store */,
+				27976E6A1804959F00B3EA6E /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Ad Hoc";
+		};
+		27976E6B1804959F00B3EA6E /* Build configuration list for PBXNativeTarget "FDRadialMenu iOS Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27976E6C1804959F00B3EA6E /* Ad Hoc */,
+				27976E6D1804959F00B3EA6E /* App Store */,
+				27976E6E1804959F00B3EA6E /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Ad Hoc";
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27976E1C1804959E00B3EA6E /* Project object */;
+}
