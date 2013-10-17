@@ -451,6 +451,7 @@
 	// Start out ignoring the possibility of items overlapping one another and set the radius to be the desired radius.
 	_radius = _desiredRadius;
 	
+	// Calculate the starting and populated angles for the current radius. If the item spacing is too large for the radius increase the radius and recalculate the starting and populating angles until they are big enough.
 	[self _calculateMinimumRequiredRadius];
 	
 #if DEBUG_DRAWINGS
@@ -493,10 +494,10 @@
 					belowSubview: self];
 			}
 			
-			[UIView animateWithDuration: 1.3 
+			[UIView animateWithDuration: 0.6 
 				delay: delay 
-				usingSpringWithDamping: 0.5f 
-				initialSpringVelocity: 4.0f 
+				usingSpringWithDamping: 0.6f 
+				initialSpringVelocity: 3.0f 
 				options: UIViewAnimationOptionAllowUserInteraction 
 				animations: ^
 					{
@@ -578,8 +579,8 @@
 					didSelectItem: selectedRadialMenuItem];
 			}];
 	
-	[UIView animateWithDuration: 0.3 
-		delay: 0.3 
+	[UIView animateWithDuration: 0.5 
+		delay: 0.2 
 		options: UIViewAnimationOptionCurveEaseInOut | UIViewAnimationOptionBeginFromCurrentState 
 		animations: ^
 			{

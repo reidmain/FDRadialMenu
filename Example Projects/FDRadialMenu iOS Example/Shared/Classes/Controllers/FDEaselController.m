@@ -189,6 +189,7 @@
 	radialMenu.delegate = self;
 	radialMenu.items = @[ redRadialMenuItem, greenRadialMenuItem, blueRadialMenuItem, yellowRadialMenuItem, orangeRadialMenuItem, purpleRadialMenuItem, blackRadialMenuItem, eraserRadialMenuItem ];
 	radialMenu.moveable = YES;
+	radialMenu.desiredRadius = 90.0f;
 	
 	[radialMenu setPixelSnappedCenter: CGPointMake(25.0f, self.view.height / 2.0f)];
 	
